@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 const AddTransaction = () => {
     const [ text, setText ] = useState('');
     const [ amount, setAmount] = useState(0);
+    
     return (
         <div>
             <h3>Add New Transaction</h3>
